@@ -13,6 +13,10 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'pg'
 gem 'simple_form'
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem "polyamorous", :github => "activerecord-hackery/polyamorous"
+gem "formtastic", github: "justinfrench/formtastic"
+gem "ransack", github: "activerecord-hackery/ransack", branch: "rails-4.1"
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21, :rbx]
