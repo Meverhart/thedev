@@ -1,5 +1,5 @@
 ActiveAdmin.register Menuitem do
-    permit_params :item, :description, :image_url, :section, :price
+    permit_params :item, :description, :image_url, :price
 
 
   
